@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import LoremSwiftum
 
 struct PersistenceController {
     static let shared = PersistenceController()
@@ -14,8 +15,11 @@ struct PersistenceController {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            let note = Note(context: viewContext)
+            note.created_at = Date()
+            note.updated_at = Date()
+            note.text = Lorem.paragraphs(5)
+            note.title = Lorem.words(5)
         }
         do {
             try viewContext.save()

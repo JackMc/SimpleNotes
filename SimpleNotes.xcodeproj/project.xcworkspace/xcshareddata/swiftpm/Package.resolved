@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AttributedText",
+        "repositoryURL": "https://github.com/gonzalezreal/AttributedText",
+        "state": {
+          "branch": null,
+          "revision": "8d66e404534bd38fa3448132e655222186e7d60e",
+          "version": "0.2.3"
+        }
+      },
+      {
+        "package": "Down",
+        "repositoryURL": "https://github.com/johnxnguyen/Down",
+        "state": {
+          "branch": null,
+          "revision": "731f6bbab24ab208ea2d6a944e3f8a8a9d5273c7",
+          "version": "0.9.4"
+        }
+      },
+      {
+        "package": "HighlightedTextEditor",
+        "repositoryURL": "https://github.com/kyle-n/HighlightedTextEditor",
+        "state": {
+          "branch": null,
+          "revision": "d51cf90b040fb6773e778ebf489383656b764823",
+          "version": "1.5.7"
+        }
+      },
+      {
+        "package": "LoremSwiftum",
+        "repositoryURL": "https://github.com/lukaskubanek/LoremSwiftum",
+        "state": {
+          "branch": null,
+          "revision": "eef89bf8b9937462f9c493789609897763b383e2",
+          "version": "2.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

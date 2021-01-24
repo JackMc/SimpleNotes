@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05C234625BCC11C004F9380 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234225BCC11C004F9380 /* Note+CoreDataClass.swift */; };
+		C05C234725BCC11C004F9380 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234225BCC11C004F9380 /* Note+CoreDataClass.swift */; };
+		C05C234825BCC11C004F9380 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234325BCC11C004F9380 /* Note+CoreDataProperties.swift */; };
+		C05C234925BCC11C004F9380 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234325BCC11C004F9380 /* Note+CoreDataProperties.swift */; };
+		C05C234A25BCC11C004F9380 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234425BCC11C004F9380 /* Folder+CoreDataClass.swift */; };
+		C05C234B25BCC11C004F9380 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234425BCC11C004F9380 /* Folder+CoreDataClass.swift */; };
+		C05C234C25BCC11C004F9380 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234525BCC11C004F9380 /* Folder+CoreDataProperties.swift */; };
+		C05C234D25BCC11C004F9380 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05C234525BCC11C004F9380 /* Folder+CoreDataProperties.swift */; };
+		C05C238925BCDD08004F9380 /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = C05C238825BCDD08004F9380 /* Down */; };
+		C05C238F25BCDD0F004F9380 /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = C05C238E25BCDD0F004F9380 /* Down */; };
+		C05C239A25BCE276004F9380 /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = C05C239925BCE276004F9380 /* AttributedText */; };
+		C05C23A025BCE27E004F9380 /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = C05C239F25BCE27E004F9380 /* AttributedText */; };
 		C06E0D3025BC89B40039A3E9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D2F25BC89B40039A3E9 /* Tests_iOS.swift */; };
 		C06E0D3B25BC89B40039A3E9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D3A25BC89B40039A3E9 /* Tests_macOS.swift */; };
 		C06E0D3D25BC89B40039A3E9 /* SimpleNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D1125BC89B30039A3E9 /* SimpleNotes.xcdatamodeld */; };
@@ -19,6 +31,16 @@
 		C06E0D4425BC89B40039A3E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D1525BC89B30039A3E9 /* Persistence.swift */; };
 		C06E0D4525BC89B40039A3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06E0D1625BC89B40039A3E9 /* Assets.xcassets */; };
 		C06E0D4625BC89B40039A3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06E0D1625BC89B40039A3E9 /* Assets.xcassets */; };
+		C06E0D7625BC92FD0039A3E9 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = C06E0D7525BC92FD0039A3E9 /* LoremSwiftum */; };
+		C06E0D7D25BC93190039A3E9 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = C06E0D7C25BC93190039A3E9 /* LoremSwiftum */; };
+		C06E0DA025BCA8440039A3E9 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D9F25BCA8440039A3E9 /* MarkdownView.swift */; };
+		C06E0DA125BCA8440039A3E9 /* MarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0D9F25BCA8440039A3E9 /* MarkdownView.swift */; };
+		C06E0DA725BCA9600039A3E9 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0DA625BCA9600039A3E9 /* NoteListView.swift */; };
+		C06E0DA825BCA9600039A3E9 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0DA625BCA9600039A3E9 /* NoteListView.swift */; };
+		C06E0DB225BCA9960039A3E9 /* RenderedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0DB125BCA9960039A3E9 /* RenderedNoteView.swift */; };
+		C06E0DB325BCA9960039A3E9 /* RenderedNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06E0DB125BCA9960039A3E9 /* RenderedNoteView.swift */; };
+		C06E0DBA25BCADB70039A3E9 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = C06E0DB925BCADB70039A3E9 /* HighlightedTextEditor */; };
+		C06E0DC025BCADC80039A3E9 /* HighlightedTextEditor in Frameworks */ = {isa = PBXBuildFile; productRef = C06E0DBF25BCADC80039A3E9 /* HighlightedTextEditor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C05C234225BCC11C004F9380 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataClass.swift"; path = "../../Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C05C234325BCC11C004F9380 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Note+CoreDataProperties.swift"; path = "../../Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C05C234425BCC11C004F9380 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Folder+CoreDataClass.swift"; path = "../../Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C05C234525BCC11C004F9380 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Folder+CoreDataProperties.swift"; path = "../../Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C06E0D1225BC89B30039A3E9 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C06E0D1325BC89B30039A3E9 /* SimpleNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNotesApp.swift; sourceTree = "<group>"; };
 		C06E0D1425BC89B30039A3E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +81,9 @@
 		C06E0D3625BC89B40039A3E9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06E0D3A25BC89B40039A3E9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C06E0D3C25BC89B40039A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06E0D9F25BCA8440039A3E9 /* MarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		C06E0DA625BCA9600039A3E9 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		C06E0DB125BCA9960039A3E9 /* RenderedNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderedNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05C238925BCDD08004F9380 /* Down in Frameworks */,
+				C06E0DBA25BCADB70039A3E9 /* HighlightedTextEditor in Frameworks */,
+				C06E0D7D25BC93190039A3E9 /* LoremSwiftum in Frameworks */,
+				C05C239A25BCE276004F9380 /* AttributedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +102,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05C238F25BCDD0F004F9380 /* Down in Frameworks */,
+				C06E0DC025BCADC80039A3E9 /* HighlightedTextEditor in Frameworks */,
+				C06E0D7625BC92FD0039A3E9 /* LoremSwiftum in Frameworks */,
+				C05C23A025BCE27E004F9380 /* AttributedText in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,17 +135,22 @@
 				C06E0D2E25BC89B40039A3E9 /* Tests iOS */,
 				C06E0D3925BC89B40039A3E9 /* Tests macOS */,
 				C06E0D1C25BC89B40039A3E9 /* Products */,
+				C06E0D7B25BC93190039A3E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C06E0D1025BC89B30039A3E9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C06E0D9625BC97780039A3E9 /* CoreData */,
 				C06E0D1325BC89B30039A3E9 /* SimpleNotesApp.swift */,
 				C06E0D1425BC89B30039A3E9 /* ContentView.swift */,
 				C06E0D1525BC89B30039A3E9 /* Persistence.swift */,
 				C06E0D1625BC89B40039A3E9 /* Assets.xcassets */,
 				C06E0D1125BC89B30039A3E9 /* SimpleNotes.xcdatamodeld */,
+				C06E0D9F25BCA8440039A3E9 /* MarkdownView.swift */,
+				C06E0DB125BCA9960039A3E9 /* RenderedNoteView.swift */,
+				C06E0DA625BCA9600039A3E9 /* NoteListView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -159,6 +201,24 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		C06E0D7B25BC93190039A3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C06E0D9625BC97780039A3E9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C05C234225BCC11C004F9380 /* Note+CoreDataClass.swift */,
+				C05C234325BCC11C004F9380 /* Note+CoreDataProperties.swift */,
+				C05C234425BCC11C004F9380 /* Folder+CoreDataClass.swift */,
+				C05C234525BCC11C004F9380 /* Folder+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +235,12 @@
 			dependencies = (
 			);
 			name = "SimpleNotes (iOS)";
+			packageProductDependencies = (
+				C06E0D7C25BC93190039A3E9 /* LoremSwiftum */,
+				C06E0DB925BCADB70039A3E9 /* HighlightedTextEditor */,
+				C05C238825BCDD08004F9380 /* Down */,
+				C05C239925BCE276004F9380 /* AttributedText */,
+			);
 			productName = "SimpleNotes (iOS)";
 			productReference = C06E0D1B25BC89B40039A3E9 /* SimpleNotes.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +258,12 @@
 			dependencies = (
 			);
 			name = "SimpleNotes (macOS)";
+			packageProductDependencies = (
+				C06E0D7525BC92FD0039A3E9 /* LoremSwiftum */,
+				C06E0DBF25BCADC80039A3E9 /* HighlightedTextEditor */,
+				C05C238E25BCDD0F004F9380 /* Down */,
+				C05C239F25BCE27E004F9380 /* AttributedText */,
+			);
 			productName = "SimpleNotes (macOS)";
 			productReference = C06E0D2325BC89B40039A3E9 /* SimpleNotes.app */;
 			productType = "com.apple.product-type.application";
@@ -266,6 +338,12 @@
 				Base,
 			);
 			mainGroup = C06E0D0B25BC89B20039A3E9;
+			packageReferences = (
+				C06E0D7425BC92FD0039A3E9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+				C06E0DB825BCADB70039A3E9 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */,
+				C05C238725BCDD08004F9380 /* XCRemoteSwiftPackageReference "Down" */,
+				C05C239825BCE276004F9380 /* XCRemoteSwiftPackageReference "AttributedText" */,
+			);
 			productRefGroup = C06E0D1C25BC89B40039A3E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -317,9 +395,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06E0D3D25BC89B40039A3E9 /* SimpleNotes.xcdatamodeld in Sources */,
+				C06E0DA025BCA8440039A3E9 /* MarkdownView.swift in Sources */,
+				C06E0DB225BCA9960039A3E9 /* RenderedNoteView.swift in Sources */,
+				C06E0DA725BCA9600039A3E9 /* NoteListView.swift in Sources */,
+				C05C234C25BCC11C004F9380 /* Folder+CoreDataProperties.swift in Sources */,
 				C06E0D4325BC89B40039A3E9 /* Persistence.swift in Sources */,
+				C05C234625BCC11C004F9380 /* Note+CoreDataClass.swift in Sources */,
 				C06E0D3F25BC89B40039A3E9 /* SimpleNotesApp.swift in Sources */,
+				C05C234A25BCC11C004F9380 /* Folder+CoreDataClass.swift in Sources */,
 				C06E0D4125BC89B40039A3E9 /* ContentView.swift in Sources */,
+				C05C234825BCC11C004F9380 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +413,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06E0D3E25BC89B40039A3E9 /* SimpleNotes.xcdatamodeld in Sources */,
+				C06E0DA125BCA8440039A3E9 /* MarkdownView.swift in Sources */,
+				C06E0DB325BCA9960039A3E9 /* RenderedNoteView.swift in Sources */,
+				C06E0DA825BCA9600039A3E9 /* NoteListView.swift in Sources */,
+				C05C234D25BCC11C004F9380 /* Folder+CoreDataProperties.swift in Sources */,
 				C06E0D4425BC89B40039A3E9 /* Persistence.swift in Sources */,
+				C05C234725BCC11C004F9380 /* Note+CoreDataClass.swift in Sources */,
 				C06E0D4025BC89B40039A3E9 /* SimpleNotesApp.swift in Sources */,
+				C05C234B25BCC11C004F9380 /* Folder+CoreDataClass.swift in Sources */,
 				C06E0D4225BC89B40039A3E9 /* ContentView.swift in Sources */,
+				C05C234925BCC11C004F9380 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +800,84 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C05C238725BCDD08004F9380 /* XCRemoteSwiftPackageReference "Down" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnxnguyen/Down";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.4;
+			};
+		};
+		C05C239825BCE276004F9380 /* XCRemoteSwiftPackageReference "AttributedText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/AttributedText";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+		C06E0D7425BC92FD0039A3E9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+		C06E0DB825BCADB70039A3E9 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kyle-n/HighlightedTextEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C05C238825BCDD08004F9380 /* Down */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C05C238725BCDD08004F9380 /* XCRemoteSwiftPackageReference "Down" */;
+			productName = Down;
+		};
+		C05C238E25BCDD0F004F9380 /* Down */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C05C238725BCDD08004F9380 /* XCRemoteSwiftPackageReference "Down" */;
+			productName = Down;
+		};
+		C05C239925BCE276004F9380 /* AttributedText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C05C239825BCE276004F9380 /* XCRemoteSwiftPackageReference "AttributedText" */;
+			productName = AttributedText;
+		};
+		C05C239F25BCE27E004F9380 /* AttributedText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C05C239825BCE276004F9380 /* XCRemoteSwiftPackageReference "AttributedText" */;
+			productName = AttributedText;
+		};
+		C06E0D7525BC92FD0039A3E9 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C06E0D7425BC92FD0039A3E9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+		C06E0D7C25BC93190039A3E9 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C06E0D7425BC92FD0039A3E9 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+		C06E0DB925BCADB70039A3E9 /* HighlightedTextEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C06E0DB825BCADB70039A3E9 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */;
+			productName = HighlightedTextEditor;
+		};
+		C06E0DBF25BCADC80039A3E9 /* HighlightedTextEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C06E0DB825BCADB70039A3E9 /* XCRemoteSwiftPackageReference "HighlightedTextEditor" */;
+			productName = HighlightedTextEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C06E0D1125BC89B30039A3E9 /* SimpleNotes.xcdatamodeld */ = {
